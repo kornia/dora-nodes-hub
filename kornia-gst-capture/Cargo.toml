@@ -1,0 +1,8 @@
+[package]
+name = "kornia-gst-capture"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dora-node-api = { version = "0.3.12", features = ["tracing"] }
+kornia-io = { git = "https://github.com/kornia/kornia-rs.git", tag = "v0.1.10-rc.3", features = ["gstreamer"] }

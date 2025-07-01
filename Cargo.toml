@@ -1,2 +1,2 @@
 [workspace]
-members = ["kornia-v4l-capture"]
+members = ["kornia-v4l-capture", "kornia-gst-capture", "kornia-imgproc-sobel", "rerun-video-sink",]
