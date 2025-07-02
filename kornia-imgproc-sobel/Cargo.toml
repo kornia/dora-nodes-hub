@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-dora-node-api = { version = "0.3.12", features = ["tracing"] }
-kornia-image = { git = "https://github.com/kornia/kornia-rs.git", tag = "v0.1.10-rc.3" }
-kornia-imgproc = { git = "https://github.com/kornia/kornia-rs.git", tag = "v0.1.10-rc.3" }
-kornia-io = { git = "https://github.com/kornia/kornia-rs.git", tag = "v0.1.10-rc.3" }
+dora-node-api = { workspace = true }
+kornia-image = { workspace = true }
+kornia-imgproc = { workspace = true }
+kornia-io = { workspace = true }
